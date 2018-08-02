@@ -195,7 +195,19 @@ body.sticky-header header h1 {
     }
 }
 
-
+@media screen and (max-width: 400px) {
+  header h1{
+    background: #0e1a25;
+  }
+  #nav1{
+    color: #26d991;
+    fill: #26d991;
+    background-color: #26d991;
+  }
+  nav:hover {
+    background: #26d991;
+  }
+}
 
 
 /* header code starts here */
