@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background:#303030;
+}
+.slide{
+  width: 960px;
+  max-width:85%;
+  height: 350px;
+  overflow:hidden;
+  
+  margin: 30px auto;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  -o-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+.slide div{
+  display:block;
+  width:0;
+  float: left;
+  -webkit-transition: all 0.75s;
+  -moz-transition: all 0.75s;
+  transition: all 0.75s;
+}
+img {
+  width:960px;
+}
