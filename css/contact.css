@@ -130,8 +130,13 @@ html {
       html{
         font-size: 0.425em;
       }
-  
+      
+      nav{
+
+      }
   }
 
-
-
+  body{
+    height: 50px;
+   background-color: #0e1a25;
+}
