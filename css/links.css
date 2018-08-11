@@ -26,7 +26,7 @@ html {
   .soc li {
     display: inline-block;
     margin: 12px;
-    margin: 1.2rem;
+    margin: 0 8.2rem;
   }
   .soc a, .soc svg {
     display: block;
@@ -132,6 +132,37 @@ html {
       }
   
   }
+  @media screen and (max-width: 896px) {
+    .soc li {
+      display: inline-block;
+      margin: 12px;
+      margin: 0 4.2rem;
+    }
 
+}
 
+@media screen and (max-width: 684px) {
+  .soc li {
+    display: inline-block;
+    margin: 12px;
+    margin: 0 2.0rem;
+  }
 
+}
+@media screen and (max-width: 509px) {
+  .soc li {
+    display: inline-block;
+    margin: 12px;
+    margin: 0 1.0rem;
+  }
+
+}
+
+@media screen and (max-width: 405px) {
+  .soc li {
+    display: inline-block;
+    margin: 12px;
+    margin: 0 0.5rem;
+  }
+
+}
